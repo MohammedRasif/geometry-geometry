@@ -54,29 +54,78 @@
                     </div>
                   </div>
 
-                  <!-- thred container -->
-                  <div class="card w-96 bg-base-100 shadow-xl">
-                    <figure><img src="https://daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg" alt="Shoes" /></figure>
+                <!-- Parallelogram container -->
+                <div class="card w-96 bg-base-100 shadow-xl">
+                    <figure><img src="images/parallelogram.png" alt="Shoes" /></figure>
                     <div class="card-body">
-                      <h2 class="card-title">Shoes!</h2>
-                      <p>If a dog chews shoes whose shoes does he choose?</p>
-                      <div class="card-actions justify-end">
-                        <button class="btn btn-primary">Buy Now</button>
+                      <h2 class="card-title">Parallelogram</h2>
+                      <p>Area (A)= w X l</p>
+                      <div>
+                        <input class="w-24 text-2xl p-2 rounded-sm" type="text" name="" id="Parallelogram-base"> <span>cm</span>
+                        <input class="w-24 text-2xl p-2 rounded-sm" type="text" name="" id="Parallelogram-hight"> <span>cm</span>
+                      </div>
+                      <p>Area: <span id="Parallelogram-area"> </span> <span>cm<sub>2</sub></span></p>
+                      <div class="card-actions">
+                        <button onclick="calculateParallelogramArea()" class="btn btn-primary w-full">Buy Now</button>
                       </div>
                     </div>
                   </div>
 
-                  <!-- forth container -->
+                  <!-- Rhombus container -->
                   <div class="card w-96 bg-base-100 shadow-xl">
-                    <figure><img src="https://daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg" alt="Shoes" /></figure>
+                    <figure><img src="images/rhombus.png" alt="Shoes" /></figure>
                     <div class="card-body">
-                      <h2 class="card-title">Shoes!</h2>
-                      <p>If a dog chews shoes whose shoes does he choose?</p>
-                      <div class="card-actions justify-end">
-                        <button class="btn btn-primary">Buy Now</button>
+                      <h2 class="card-title">Rhombus</h2>
+                      <p>Area (A)= w X l</p>
+                      <div>
+                        <input class="w-24 text-2xl p-2 rounded-sm" type="text" name="" id="Rhombus-base"> <span>cm</span>
+                        <input class="w-24 text-2xl p-2 rounded-sm" type="text" name="" id="Rhombus-hight"> <span>cm</span>
+                      </div>
+                      <p>Area: <span id="Rhombus-area"> </span> <span>cm<sub>2</sub></span></p>
+                      <div class="card-actions">
+                        <button onclick="calculateRhombusArea()" class="btn btn-primary w-full">Buy Now</button>
                       </div>
                     </div>
                   </div>
+
+                  <!-- Pentagon -->
+                  <div class="card w-96 bg-base-100 shadow-xl">
+                    <figure><img src="images/pentagon.png" alt="Shoes" /></figure>
+                    <div class="card-body">
+                      <h2 class="card-title">Pentagon</h2>
+                      <p>Area (A)= w X l</p>
+                      <div>
+                        <input class="w-24 text-2xl p-2 rounded-sm" type="text" name="" id="Pentagon-base"> <span>cm</span>
+                        <input class="w-24 text-2xl p-2 rounded-sm" type="text" name="" id="Pentagon-hight"> <span>cm</span>
+                      </div>
+                      <p>Area: <span id="Pentagon-area"> </span> <span>cm<sub>2</sub></span></p>
+                      <div class="card-actions">
+                        <button onclick="calculateRhombusArea()" class="btn btn-primary w-full">Buy Now</button>
+                      </div>
+                    </div>
+                  </div>
+
+                  <!-- Ellipse -->
+
+                  <div class="card w-96 bg-base-100 shadow-xl">
+                    <figure><img src="images/ellipse.png" alt="Shoes" /></figure>
+                    <div class="card-body">
+                      <h2 class="card-title">Ellipse</h2>
+                      <p>Area (A)= w X l</p>
+                      <div>
+                        <input class="w-24 text-2xl p-2 rounded-sm" type="text" name="" id="Ellipse-base"> <span>cm</span>
+                        <input class="w-24 text-2xl p-2 rounded-sm" type="text" name="" id="Ellipse-hight"> <span>cm</span>
+                      </div>
+                      <p>Area: <span id="Ellipse-area"> </span> <span>cm<sub>2</sub></span></p>
+                      <div class="card-actions">
+                        <button onclick="calculateEllipseArea()" class="btn btn-primary w-full">Buy Now</button>
+                      </div>
+                    </div>
+                  </div>
+
+
+
+
             </div >
             <!-- area container -->
             <div class="w-96 border-2 border-gray-700 rounded-md">
@@ -85,6 +134,10 @@
         </div>
         <script src="script/triangle.js"></script>
         <script src="script/rectangle.js"></script>
+        <script src="script/parallelogram.js"></script>
+        <script src="script/rhombus.js"></script>
+        <script src="script/pentagon.js"></script>
+        <script src="script/ellipse.js"></script>
     </main>
    
     
